@@ -1,0 +1,6 @@
+{
+  "name": "FinApp - Gestão Financeira",
+  "description": "Uma aplicação moderna e minimalista para gerenciar finanças pessoais, registrar receitas, despesas e investimentos, com relatórios em PDF e CSV.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

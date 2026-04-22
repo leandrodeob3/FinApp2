@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-bg-base: #09090b;
+  --color-bg-surface: #18181b;
+  --color-bg-card: #27272a;
+  --color-text-main: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-accent-income: #10b981;
+  --color-accent-expense: #f43f5e;
+  --color-accent-invest: #3b82f6;
+  --color-border-theme: #3f3f46;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-base text-text-main antialiased;
+  }
+}
+
+.card-theme {
+  @apply bg-bg-surface border border-border-theme rounded-2xl;
+}
+
+.input-theme {
+  @apply bg-bg-base border border-border-theme rounded-lg p-2.5 text-text-main focus:ring-1 focus:ring-accent-income outline-none transition-all;
+}
+
+.btn-primary {
+  @apply bg-accent-income text-black font-semibold rounded-lg py-2.5 hover:opacity-90 active:scale-95 transition-all disabled:opacity-50;
+}
+
+.nav-item-theme {
+  @apply flex items-center gap-3 px-6 py-3 text-text-muted hover:text-text-main transition-colors cursor-pointer;
+}
+
+.nav-item-theme.active {
+  @apply bg-accent-income/10 text-accent-income border-r-4 border-accent-income;
+}
