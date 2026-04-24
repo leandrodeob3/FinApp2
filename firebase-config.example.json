@@ -1,0 +1,10 @@
+{
+  "projectId": "SEU_PROJECT_ID",
+  "appId": "SEU_APP_ID",
+  "apiKey": "SUA_API_KEY",
+  "authDomain": "SEU_PROJECT_ID.firebaseapp.com",
+  "firestoreDatabaseId": "(default)",
+  "storageBucket": "SEU_PROJECT_ID.firebasestorage.app",
+  "messagingSenderId": "SEU_SENDER_ID",
+  "measurementId": ""
+}
